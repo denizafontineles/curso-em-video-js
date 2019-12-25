@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Contagem</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <section>
+        <h3>Que horas são?</h3>
+        <div >
+            <label for="input-inicio">Início</label>
+            <input type="number" name="inicio" id="input-inicio" placeholder="Digite um número">
+        </div>
+
+        <div >
+            <label for="input-fim">Fim</label>
+            <input type="number" name="fim" id="input-fim" placeholder="Digite um horário">
+        </div>
+
+        <div >
+            <label for="input-passo">Passo</label>
+            <input type="number" name="passo" id="input-passo" placeholder="Digite um horário">
+        </div>
+
+        <div>
+            <input type="button" onclick="clicar()" value="Contar">
+        </div>
+
+        <div id="msg">
+            Preparando a contagem...
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Deniza Fontineles</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
